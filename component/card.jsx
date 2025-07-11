@@ -15,7 +15,8 @@ function Card({
   enableHover = true,
   className = '',
   textstyle='',
-  containerstyler=''
+  containerstyler='',
+
 }) {
 return (
      <div className={`card-wrapper ${enableHover ? 'hover-enabled' : 'static'} ${containerstyler}`}> 
