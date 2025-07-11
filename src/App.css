@@ -43,16 +43,18 @@ body {
   transform: translateX(150px);
 }
 
+
 /* Only when hover is enabled */
 .hover-enabled:hover .card-front {
   opacity: 0;
-  transform: translateX(-150px);
+  transform: translateX(-350px);
   z-index: 5;
 }
 
 .hover-enabled:hover .card-back {
   opacity: 1;
   transform: translateX(0);
+
   z-index: 10;
 }
 
@@ -64,13 +66,20 @@ body {
 }
 
 /* Animation for bounce */
-.first {
+.first-all{
   width: 260px;
   height: 260px;
   border-radius: 22px;
-  position: relative;
-  top: 90px;
-  right: 80px;
+ 
+}
+.first-back{
+  width: 372px;
+  height: 329px;
+  border-radius: 22px;
+  position: absolute;
+  top: 12px;
+  right: 10px;
+  
 }
 
 .animate-custom {
@@ -91,4 +100,116 @@ body {
   align-items: center;
   justify-content: center;
   margin-top: 20px;
+}
+.back-text {
+  position: absolute;
+  top: 55px;
+  right: 60px;
+  left: 50px;
+  color: #fff;
+}
+.right-arrow{
+  position: absolute;
+  top: 140px;
+  left: 480px;
+  color: #FAFAFA;
+  
+}
+.left-arrow{
+  position: absolute;
+  top: 140px;
+  right: 480px;
+  color: #FAFAFA;
+}
+.img1{
+  width:260px;
+  height: 340px;
+  
+  object-fit: cover;
+  position: relative;
+  top: 60px;
+  right: 80px;
+  
+}
+.text1-style{
+  position: absolute;
+  top: 20px;
+  left: 200px;
+  right: 50px;
+  text-align: right;
+
+  
+}
+
+.img2{
+  width:260px;
+  height: 380px;
+  /* border-radius: 22px; */
+  /* object-fit: fill; */
+  position: relative;
+  top: 60px;
+  left: 270px;
+}
+.text2-style{
+  
+  position: absolute;
+  top: 20px;
+  right: 230px;
+  left: 50px;
+  
+}
+.img3{
+  width:305px;
+  height: 340px;
+  /* border-radius: 22px; */
+  /* object-fit: cover; */
+  position: relative;
+  top: 90px;
+  right: 80px;
+}
+.text3-style{
+  position: absolute;
+  top: 20px;
+  text-align: right;
+  right: 50px;
+  left: 110px;
+  
+}
+
+.img4{
+   width:285px;
+  height: 340px;
+  position: relative;
+  top: 60px;
+  left: 270px;
+}
+
+.text4-style{
+  position: absolute;
+  top: 20px;
+  right: 180px;
+  left: 50px;
+}
+
+.container-style .card-face {
+  animation: radiusBounce 4s infinite ease-in-out;
+}
+
+@keyframes radiusBounce {
+  0% ,25%,50%,75%,100% {
+    border-radius: 0px;
+  }
+  25% {
+    border-radius: 22px;
+  }
+  50% {
+    border-radius: 0px;
+  }
+  75% {
+    border-radius: 22px;
+  }
+  100% {
+    border-radius: 0px;
+  }
+  
 }
