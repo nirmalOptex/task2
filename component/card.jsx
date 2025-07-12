@@ -19,7 +19,7 @@ function Card({
 }) {
 return (
      <div className={`card-wrapper ${enableHover ? 'hover-enabled' : 'static'} ${containerstyler}`}> 
-        {/* Initial card */}
+        {/* first card */}
         <div
             className={`card-face card-front`}
             style={{ backgroundColor: bgColor }}
@@ -32,7 +32,7 @@ return (
             </div>
         </div>
 
-        {/* Hover card (only rendered if enabled) */}
+        {/* Hover card */}
         {enableHover && (
             <div
                 className="card-face card-back"
