@@ -15,7 +15,7 @@ function App() {
         content="Overwhelmed by too many learning options? SkillShikshya provides a clear, curated roadmap from the start. Whether you're a beginner or upskilling, we have a path tailored to your growth."
         hoverTitle="Clarity unlocked—stickers, sips, and skills all in one go!"
         bgColor="#F45B5B"
-        hoverImgSrc="/group 1.png"
+        hoverImgSrc="/group1.png"
         secondaryTitle="step into a better learning path."
         hoverBgColor="#F45B5B"
         enableHover={true}
