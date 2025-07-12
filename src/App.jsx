@@ -10,12 +10,12 @@ function App() {
     <div className="flex flex-wrap w-full max-w-6xl mx-auto px-4 gap-8">
       {/* Hover-enabled card */}
       <Card
-        imgSrc="assets/img1.png"
+        imgSrc="/img1.png"
         title="Start with Clarity"
         content="Overwhelmed by too many learning options? SkillShikshya provides a clear, curated roadmap from the start. Whether you're a beginner or upskilling, we have a path tailored to your growth."
         hoverTitle="Clarity unlocked—stickers, sips, and skills all in one go!"
         bgColor="#F45B5B"
-        hoverImgSrc="assets/group 1.png"
+        hoverImgSrc="/group 1.png"
         secondaryTitle="step into a better learning path."
         hoverBgColor="#F45B5B"
         enableHover={true}
@@ -23,7 +23,7 @@ function App() {
         textstyle="text1-style"
       />
       <Card
-        imgSrc="assets/img2.png"
+        imgSrc="/img2.png"
        title="Learn by Doing"
         secondaryTitle="Practical skills, real projects."
         content={`{}Theory is great, but action is better. At SkillShikshya, you learn by doing. Hands-on projects and real-world scenarios help you build, break, and create—leading to true mastery.`}
@@ -31,7 +31,7 @@ function App() {
         hoverContent="You hovered over me!"
         bgColor="#5492A0"
         hoverBgColor="#5492A0"
-        hoverImgSrc="assets/group2.png"
+        hoverImgSrc="/group2.png"
         enableHover={true}
         className="img2 "
         textstyle="text2-style"
@@ -39,7 +39,7 @@ function App() {
        
       />
       <Card
-        imgSrc="assets/img3.png"
+        imgSrc="/img3.png"
         title="Get Mentored & Supported"
         secondaryTitle="You're not learning alone."
         content="Stuck or need feedback? SkillShikshya’s community of mentors and learners has your back with live support, interactive discussions, and expert insights. You’re never on your own."
@@ -55,7 +55,7 @@ function App() {
 
       
       <Card
-        imgSrc="assets/img4.png"
+        imgSrc="/img4.png"
         title="Achieve & Showcase"
         secondaryTitle="Build your portfolio, get job-ready."
         content="Your journey ends with achievement. Each completed project builds a portfolio showcasing your skills and job readiness, bringing you closer to that dream job, promotion, or your own venture."
