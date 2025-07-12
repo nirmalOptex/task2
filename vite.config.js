@@ -5,6 +5,6 @@ import tailwindcss from '@tailwindcss/vite'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base:process.env.VITE_BASE_URL || '/TASK2',
+  base:process.env.VITE_BASE_URL || '/',
 })
 
